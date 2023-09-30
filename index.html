@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Jon Barron</title>
+    <title>Jianhan Ma</title>
 
     <meta name="author" content="Jianhan Ma">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Jon Barron
+                  Jianhan Ma
                 </p>
                 <p>I'm currently a second year M.S. student at the ECE department of UC San Diego,  working with <a href="https://xiaolonw.github.io/">Prof. Xiaolong Wang</a>, [Prof. Xiaolong Wang](https://xiaolonw.github.io/) on robotic learning techniques deployed on quadruped robots. 
                 </p>
@@ -58,70 +58,61 @@
               </td>
               <td width="75%" valign="middle">
                 <a href="https://drive.google.com/file/d/1PQjzKgFcrAesMIDJr-WDlCwuGUxZJZwO/view?usp=sharing">
-                  <span class="papertitle">Blind Date: Using Proper Motions to Determine the Ages of Historical Images</span>
-                </a>
+                  <span class="papertitle">Generalized Animal Imitator: Agile Locomotion with Versatile Motion Prior</span>
+                </a> <br>
+                <a href="https://https://rchalyang.github.io/">Ruihan Yang*</a>,
+                <a href="https://www.linkedin.com/in/zhuoqun-chen/">Zhuoqun Chen*</a>,
+                <strong>Jianhan Ma*</strong>,
+                <a href="https://scholar.google.com/citations?user=bezWXYcAAAAJ&hl=en">Chongyi Zheng*</a>,
+                <a href="https://www.linkedin.com/in/yiyu-chen-88079b161/">Yiyu Chen</a>,
+                <a href="https://viterbi.usc.edu/directory/faculty/Nguyen/Quan">Quan Nguyen</a>
+                <a href="https://xiaolonw.github.io/">Xiaolong Wang</a>
                 <br>
-                <strong>Jonathan T. Barron</strong>, <a href="http://cosmo.nyu.edu/hogg/">David W. Hogg</a>, <a href="http://www.astro.princeton.edu/~dstn/">Dustin Lang</a>, <a href="http://cs.nyu.edu/~roweis/">Sam Roweis</a>
-                <br>
-                <em>The Astronomical Journal</em>, 136, 2008
-                <p>Using the relative motions of stars we can accurately estimate the date of origin of historical astronomical images.</p>
+                <em>In submission to ICRA</em>, 2024
+                <p>This paper introduces the Versatile Instructable Motion prior (VIM) – a Reinforcement Learning framework designed to incorporate a range of agile locomotion tasks suitable for advanced robotic applications. Our framework enables legged robots to learn diverse agile low-level skills by imitating animal motions and manually designed motions with Functionality reward and Stylization reward. </p>
               </td>
             </tr>
       
       
-      <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='db3d_image'><video  width=100% height=100% muted autoplay loop>
-            <source src="images/owl.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video></div>
-            <img src='images/owl.png' width="160">
-          </div>
-          <script type="text/javascript">
-            function db3d_start() {
-              document.getElementById('db3d_image').style.opacity = "1";
+     <tr onmouseout="pnf_stop()" onmouseover="pnf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+            <div class="two" id='pnf_image'>
+              <img src='images/pnf_before.jpg' width="160"></div>
+            <img src='images/pnf_after.jpg' width="160">
+            </div>
+            <script type="text/javascript">
+            function pnf_start() {
+              document.getElementById('pnf_image').style.opacity = "1";
             }
 
-            function db3d_stop() {
-              document.getElementById('db3d_image').style.opacity = "0";
+            function pnf_stop() {
+              document.getElementById('pnf_image').style.opacity = "0";
             }
-            db3d_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://dreambooth3d.github.io/">
-            <span class="papertitle">DreamBooth3D: Subject-Driven Text-to-3D Generation</span>
-          </a>
-          <br>
-          
-  <a href="https://amitraj93.github.io/">Amit Raj</a>, <a href="https://www.linkedin.com/in/srinivas-kaza-64223b74">Srinivas Kaza</a>, <a href="https://poolio.github.io/">Ben Poole</a>, <a href="https://m-niemeyer.github.io/">Michael Niemeyer</a>, <a href="https://natanielruiz.github.io/">Nataniel Ruiz</a>, 
-  <a href="https://bmild.github.io/">Ben Mildenhall</a>, <a href="https://scholar.google.com/citations?user=I2qheksAAAAJ">Shiran Zada</a>, <a href="https://kfiraberman.github.io/">Kfir Aberman</a>, <a href="http://people.csail.mit.edu/mrub/">Michael Rubinstein</a>, 
-          <strong>Jonathan T. Barron</strong>, <a href="http://people.csail.mit.edu/yzli/">Yuanzhen Li</a>, <a href="https://varunjampani.github.io/">Varun Jampani</a>
-          <br>
-          <em>ICCV</em>, 2023
-          <br>
-          <a href="https://dreambooth3d.github.io/">project page</a> / 
-          <a href="https://arxiv.org/abs/2303.13508">arXiv</a>
-          <p></p>
-          <p>Combining DreamBooth (personalized text-to-image) and DreamFusion (text-to-3D) yields high-quality, subject-specific 3D assets with text-driven modifications</p>
-        </td>
-      </tr>
+            pnf_stop()
+            </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="TODO">
+            <span class="papertitle">Polynomial Neural Fields for Subband Decomposition</span>
+            </a> <br>
+            <a href="https://www.guandaoyang.com/">Guandao Yang*</a>,
+            <a href="https://sagiebenaim.github.io/">Sagie Benaim*</a>,
+            <a href="https://varunjampani.github.io/">Varun Jampani</a>,
+            <a href="https://www.kylegenova.com/">Kyle Genova</a>,
+            <strong>Jonathan T. Barron</strong>,
+            <a href="https://www.cs.princeton.edu/~funk/">Thomas Funkhouser</a>,
+            <a href="http://home.bharathh.info/">Bharath Hariharan</a>,
+            <a href="https://sergebelongie.github.io/">Serge Belongie</a>
+            <br>
+            <em>NeurIPS</em>, 2022
+            <p>
+            Representing neural fields as a composition of manipulable and interpretable components lets you do things like reason about frequencies and scale.
+            </p>
+            </td>
+            </tr> 
 
       
-
-     
-
-             
-
-      
-           
-      
-      
-              
-      
-            
-
           
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
             <tr>
